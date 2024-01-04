@@ -17,6 +17,7 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
+                        ShareLink("share link", item: URL(string: "https://example.com/")!)
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
                     } label: {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))

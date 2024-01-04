@@ -15,6 +15,7 @@
 		FD402A6E2B46F1E200E98DEF /* ShareSongIos2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A6D2B46F1E200E98DEF /* ShareSongIos2Tests.swift */; };
 		FD402A782B46F1E200E98DEF /* ShareSongIos2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A772B46F1E200E98DEF /* ShareSongIos2UITests.swift */; };
 		FD402A7A2B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A792B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift */; };
+		FD6B60A32B473B9600BF615C /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B60A22B473B9600BF615C /* ShareSongClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		FD402A732B46F1E200E98DEF /* ShareSongIos2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSongIos2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD402A772B46F1E200E98DEF /* ShareSongIos2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongIos2UITests.swift; sourceTree = "<group>"; };
 		FD402A792B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongIos2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD6B60A12B47369500BF615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD6B60A22B473B9600BF615C /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +99,13 @@
 		FD402A592B46F1DF00E98DEF /* ShareSongIos2 */ = {
 			isa = PBXGroup;
 			children = (
+				FD6B60A12B47369500BF615C /* Info.plist */,
 				FD402A5A2B46F1DF00E98DEF /* ShareSongIos2App.swift */,
 				FD402A5C2B46F1DF00E98DEF /* ContentView.swift */,
 				FD402A5E2B46F1DF00E98DEF /* Item.swift */,
 				FD402A602B46F1E200E98DEF /* Assets.xcassets */,
 				FD402A622B46F1E200E98DEF /* Preview Content */,
+				FD6B60A22B473B9600BF615C /* ShareSongClient.swift */,
 			);
 			path = ShareSongIos2;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD402A5D2B46F1DF00E98DEF /* ContentView.swift in Sources */,
+				FD6B60A32B473B9600BF615C /* ShareSongClient.swift in Sources */,
 				FD402A5F2B46F1DF00E98DEF /* Item.swift in Sources */,
 				FD402A5B2B46F1DF00E98DEF /* ShareSongIos2App.swift in Sources */,
 			);
@@ -429,6 +435,7 @@
 				DEVELOPMENT_TEAM = D52W8PA2SV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareSongIos2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +465,7 @@
 				DEVELOPMENT_TEAM = D52W8PA2SV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareSongIos2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
