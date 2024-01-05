@@ -6,35 +6,35 @@ struct ConversionResponse: Codable {
 }
 
 class ShareSongApi {
-    func convert(originServiceUrl: String, targetService: String, completion: @escaping (Result<ConversionResponse, Error>) -> Void) {
+    // Prevent instantiation
+    private init() {}
+
+    static func convert(originServiceUrl: String, targetService: String) async throws -> ConversionResponse {
         let baseUrl = "https://convert-f47vs76u2q-ew.a.run.app"
-        guard var urlComponents = URLComponents(string: baseUrl) else { return }
+        guard var urlComponents = URLComponents(string: baseUrl) else {
+            throw URLError(.badURL)
+        }
         urlComponents.queryItems = [
             URLQueryItem(name: "originServiceUrl", value: originServiceUrl),
             URLQueryItem(name: "targetService", value: targetService)
         ]
 
-        guard let url = urlComponents.url else { return }
-
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
-                completion(.failure(error))
-                return
-            }
-
-            guard let data = data else {
-                completion(.failure(NSError(domain: "", code: -1, userInfo: nil)))
-                return
-            }
-
-            do {
-                let conversionResponse = try JSONDecoder().decode(ConversionResponse.self, from: data)
-                completion(.success(conversionResponse))
-            } catch {
-                completion(.failure(error))
-            }
+        guard let url = urlComponents.url else {
+            throw URLError(.badURL)
         }
 
-        task.resume()
+        let (data, urlResponse) = try await URLSession.shared.data(from: url)
+        print("data")
+        print(data)
+        print(urlResponse)
+        
+        
+                 if let jsonString = String(data: data, encoding: .utf8) {
+                    print(jsonString)
+                 }
+               
+        
+        return try JSONDecoder().decode(ConversionResponse.self, from: data)
     }
 }
+
