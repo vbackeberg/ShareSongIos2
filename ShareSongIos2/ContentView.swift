@@ -10,18 +10,27 @@ import SwiftData
 
 struct ContentView: View {
     @State private var responseText: String = ""
+    @State private var showShareSheet = false
+    @State private var itemsToShare: [Any] = ["This is a test string"]
+
+    var body: some View {
+
+    }
 
     var body: some View {
         VStack {
             Text(responseText)
                 .padding()
                 .border(Color.gray)
-
-            Button("Convert Song") {
-                Task {
-                    await convertSong(originUrl: "https://deezer.page.link/go6SQsExZhcaw1NM7", targetService: "AppleMusic")
+                    Button("Share") {
+                        Task {
+                                await convertSong(originUrl: "https://deezer.page.link/go6SQsExZhcaw1NM7", targetService: "AppleMusic")
+                            }
+                        showShareSheet = true
+                    }
+                .sheet(isPresented: $showShareSheet) {
+                    ShareSheet(items: itemsToShare, isPresented: $showShareSheet)
                 }
-            }
         }
         .padding()
     }
