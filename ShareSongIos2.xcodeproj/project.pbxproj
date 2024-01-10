@@ -16,6 +16,7 @@
 		FD402A782B46F1E200E98DEF /* ShareSongIos2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A772B46F1E200E98DEF /* ShareSongIos2UITests.swift */; };
 		FD402A7A2B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A792B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift */; };
 		FD6B60A32B473B9600BF615C /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B60A22B473B9600BF615C /* ShareSongClient.swift */; };
+		FDC8429B2B4D8BA50014AB13 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8429A2B4D8BA50014AB13 /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD402A792B46F1E200E98DEF /* ShareSongIos2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongIos2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD6B60A12B47369500BF615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FD6B60A22B473B9600BF615C /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
+		FDC8429A2B4D8BA50014AB13 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FD402A602B46F1E200E98DEF /* Assets.xcassets */,
 				FD402A622B46F1E200E98DEF /* Preview Content */,
 				FD6B60A22B473B9600BF615C /* ShareSongClient.swift */,
+				FDC8429A2B4D8BA50014AB13 /* ShareSheet.swift */,
 			);
 			path = ShareSongIos2;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD402A5D2B46F1DF00E98DEF /* ContentView.swift in Sources */,
+				FDC8429B2B4D8BA50014AB13 /* ShareSheet.swift in Sources */,
 				FD6B60A32B473B9600BF615C /* ShareSongClient.swift in Sources */,
 				FD402A5F2B46F1DF00E98DEF /* Item.swift in Sources */,
 				FD402A5B2B46F1DF00E98DEF /* ShareSongIos2App.swift in Sources */,
