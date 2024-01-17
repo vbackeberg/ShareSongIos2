@@ -24,7 +24,7 @@ class ActionViewController: UIViewController {
                                 
                                 Task {
                                     do {
-                                        let conversionResponse = try await ShareSongApi.convert(
+                                        let conversionResponse = try await ShareSongClient.convert(
                                             originServiceUrl: url.absoluteString,
                                             targetService: "AppleMusic")
                                         

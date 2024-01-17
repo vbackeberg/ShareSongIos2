@@ -5,7 +5,7 @@ struct ConversionResponse: Codable {
     let originService: String
 }
 
-class ShareSongApi {
+class ShareSongClient {
     // Prevent instantiation
     private init() {}
 
