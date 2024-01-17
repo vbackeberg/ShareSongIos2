@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4809B1FE2B58302D001F4EEF /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
+		4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC442B554AD7001B4F43 /* Media.xcassets */; };
 		48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* ActionViewController.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4809B1FD2B58302D001F4EEF /* OriginUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginUrls.swift; sourceTree = "<group>"; };
+		4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share to Deezer.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AEFC442B554AD7001B4F43 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -114,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4809B1FC2B582FF8001F4EEF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4809B1FD2B58302D001F4EEF /* OriginUrls.swift */,
+				4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		48A66C582B5410550092025F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +150,7 @@
 		FD402A4E2B46F1DF00E98DEF = {
 			isa = PBXGroup;
 			children = (
+				4809B1FC2B582FF8001F4EEF /* Common */,
 				FD402A592B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A6C2B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A762B46F1E200E98DEF /* ShareSongIos2UITests */,
@@ -356,6 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4809B1FE2B58302D001F4EEF /* OriginUrls.swift in Sources */,
+				4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */,
 				48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */,
 				48AEFC662B55501E001B4F43 /* ShareSongClient.swift in Sources */,
 			);
