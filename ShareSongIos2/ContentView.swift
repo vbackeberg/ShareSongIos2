@@ -4,7 +4,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var responseText: String = ""
 
-    body: some View {
+    var body: some View {
         VStack {
             Text(responseText)
                 .padding()
