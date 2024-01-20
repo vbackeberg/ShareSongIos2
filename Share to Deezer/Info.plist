@@ -7,31 +7,17 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>NSExtensionActivationRule</key>
-			<dict>
-				<key>NSPredicate</key>
-				<string>SUBQUERY (
-        extensionItems,
-        $extensionItem,
-        SUBQUERY (
-            $extensionItem.attachments,
-            $attachment,
-            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.url&quot; AND
-            (
-                [NSPredicate predicateWithFormat:@&quot;SELF LIKE[c] &apos;*spotify.com*&apos;&quot;].evaluateWithObject($attachment.URL.host) OR
-                [NSPredicate predicateWithFormat:@&quot;SELF LIKE[c] &apos;*deezer.page.link*&apos;&quot;].evaluateWithObject($attachment.URL.host) OR
-                [NSPredicate predicateWithFormat:@&quot;SELF LIKE[c] &apos;*tidal.com/track*&apos;&quot;].evaluateWithObject($attachment.URL.host)
-            )
-        ).@count == $extensionItems.@count
-    ).@count == 1</string>
-				<key>NSExtensionActivationUsesStrictMatching</key>
-				<integer>1</integer>
-				<key>NSExtensionActivationSupportsMovieWithMaxCount</key>
-				<integer>0</integer>
-				<key>NSExtensionActivationSupportsImageWithMaxCount</key>
-				<integer>0</integer>
-				<key>NSExtensionActivationSupportsWebURLWithMaxCount</key>
-				<integer>1</integer>
-			</dict>
+			<string>
+                SUBQUERY (
+                    extensionItems,
+                    $extensionItem,
+                    SUBQUERY (
+                        $extensionItem.attachments,
+                        $attachment,
+                        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.url&quot;
+                    ).@count == 1
+                ).@count == 1
+            </string>
 			<key>NSExtensionServiceAllowsFinderPreviewItem</key>
 			<true/>
 			<key>NSExtensionServiceAllowsTouchBarItem</key>

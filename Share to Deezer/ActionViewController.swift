@@ -17,6 +17,19 @@ class ActionViewController: UIViewController {
                                 } else {
                                     strongSelf.extensionContext?.cancelRequest(
                                         withError: NSError(domain: "URL not supported", code: 0, userInfo: nil))
+                                    
+                                    
+                                    let alert = UIAlertController(
+                                        title: "Error",
+                                        message: "Sorry, this link is not supported. We can only convert songs.",
+                                        preferredStyle: .alert)
+                                    
+                                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                                    DispatchQueue.main.async {
+                                        strongSelf.present(alert, animated: true, completion: {
+                                            strongSelf.done()
+                                        })
+                                    }
                                 }
                                 
                                 print("transforming url")
