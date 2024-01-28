@@ -1,4 +1,4 @@
-class ActionViewController: BaseActionViewController {
+class DeezerActionViewController: BaseActionViewController {
     override var targetServiceName: String { "Deezer" }
 
     @IBAction func done() {

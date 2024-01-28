@@ -11,7 +11,7 @@
 		4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC442B554AD7001B4F43 /* Media.xcassets */; };
-		48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* ActionViewController.swift */; };
+		48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */; };
 		48AEFC4A2B554AD7001B4F43 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC482B554AD7001B4F43 /* MainInterface.storyboard */; };
 		48AEFC4E2B554AD7001B4F43 /* Share to Deezer.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
@@ -84,7 +84,7 @@
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share to Deezer.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AEFC442B554AD7001B4F43 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		48AEFC462B554AD7001B4F43 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerActionViewController.swift; sourceTree = "<group>"; };
 		48AEFC492B554AD7001B4F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		48AEFC4B2B554AD7001B4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToSpotify.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				48AEFC442B554AD7001B4F43 /* Media.xcassets */,
-				48AEFC462B554AD7001B4F43 /* ActionViewController.swift */,
+				48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */,
 				48AEFC482B554AD7001B4F43 /* MainInterface.storyboard */,
 				48AEFC4B2B554AD7001B4F43 /* Info.plist */,
 			);
@@ -446,7 +446,7 @@
 				4809B1FE2B58302D001F4EEF /* OriginUrls.swift in Sources */,
 				48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */,
 				4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */,
-				48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */,
+				48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
