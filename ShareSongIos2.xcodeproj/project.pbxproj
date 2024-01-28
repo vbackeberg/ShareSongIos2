@@ -165,7 +165,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48AEFC432B554AD7001B4F43 /* Share to Deezer */ = {
+		48AEFC432B554AD7001B4F43 /* ShareToDeezer */ = {
 			isa = PBXGroup;
 			children = (
 				48AEFC442B554AD7001B4F43 /* Media.xcassets */,
@@ -173,7 +173,7 @@
 				48AEFC482B554AD7001B4F43 /* MainInterface.storyboard */,
 				48AEFC4B2B554AD7001B4F43 /* Info.plist */,
 			);
-			path = "Share to Deezer";
+			path = ShareToDeezer;
 			sourceTree = "<group>";
 		};
 		48E78F6E2B65732B00E54093 /* ShareToSpotify */ = {
@@ -194,7 +194,7 @@
 				FD402A592B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A6C2B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A762B46F1E200E98DEF /* ShareSongIos2UITests */,
-				48AEFC432B554AD7001B4F43 /* Share to Deezer */,
+				48AEFC432B554AD7001B4F43 /* ShareToDeezer */,
 				48E78F6E2B65732B00E54093 /* ShareToSpotify */,
 				48A66C582B5410550092025F /* Frameworks */,
 				FD402A582B46F1DF00E98DEF /* Products */,
