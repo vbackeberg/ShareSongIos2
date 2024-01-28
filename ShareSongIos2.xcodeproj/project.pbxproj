@@ -13,7 +13,7 @@
 		48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC442B554AD7001B4F43 /* Media.xcassets */; };
 		48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */; };
 		48AEFC4A2B554AD7001B4F43 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC482B554AD7001B4F43 /* MainInterface.storyboard */; };
-		48AEFC4E2B554AD7001B4F43 /* Share to Deezer.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48AEFC4E2B554AD7001B4F43 /* ShareToDeezer.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48E78F702B65732B00E54093 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F6F2B65732B00E54093 /* Media.xcassets */; };
 		48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */; };
@@ -38,7 +38,7 @@
 			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48AEFC402B554AD6001B4F43;
-			remoteInfo = "Share to Deezer";
+			remoteInfo = ShareToDeezer;
 		};
 		48E78F772B65732B00E54093 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -71,7 +71,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */,
-				48AEFC4E2B554AD7001B4F43 /* Share to Deezer.appex in Embed Foundation Extensions */,
+				48AEFC4E2B554AD7001B4F43 /* ShareToDeezer.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +82,7 @@
 		4809B1FD2B58302D001F4EEF /* OriginUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginUrls.swift; sourceTree = "<group>"; };
 		4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
-		48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share to Deezer.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToDeezer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AEFC442B554AD7001B4F43 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerActionViewController.swift; sourceTree = "<group>"; };
 		48AEFC492B554AD7001B4F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				FD402A572B46F1DF00E98DEF /* ShareSongIos2.app */,
 				FD402A692B46F1E200E98DEF /* ShareSongIos2Tests.xctest */,
 				FD402A732B46F1E200E98DEF /* ShareSongIos2UITests.xctest */,
-				48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */,
+				48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */,
 				48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */,
 			);
 			name = Products;
@@ -253,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48AEFC402B554AD6001B4F43 /* Share to Deezer */ = {
+		48AEFC402B554AD6001B4F43 /* ShareToDeezer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "Share to Deezer" */;
+			buildConfigurationList = 48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "ShareToDeezer" */;
 			buildPhases = (
 				48AEFC3D2B554AD6001B4F43 /* Sources */,
 				48AEFC3E2B554AD6001B4F43 /* Frameworks */,
@@ -265,9 +265,9 @@
 			);
 			dependencies = (
 			);
-			name = "Share to Deezer";
-			productName = "Share to Deezer";
-			productReference = 48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */;
+			name = ShareToDeezer;
+			productName = ShareToDeezer;
+			productReference = 48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		48E78F6B2B65732B00E54093 /* ShareToSpotify */ = {
@@ -388,7 +388,7 @@
 				FD402A562B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A682B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A722B46F1E200E98DEF /* ShareSongIos2UITests */,
-				48AEFC402B554AD6001B4F43 /* Share to Deezer */,
+				48AEFC402B554AD6001B4F43 /* ShareToDeezer */,
 				48E78F6B2B65732B00E54093 /* ShareToSpotify */,
 			);
 		};
@@ -492,7 +492,7 @@
 /* Begin PBXTargetDependency section */
 		48AEFC4D2B554AD7001B4F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48AEFC402B554AD6001B4F43 /* Share to Deezer */;
+			target = 48AEFC402B554AD6001B4F43 /* ShareToDeezer */;
 			targetProxy = 48AEFC4C2B554AD7001B4F43 /* PBXContainerItemProxy */;
 		};
 		48E78F782B65732B00E54093 /* PBXTargetDependency */ = {
@@ -539,7 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D52W8PA2SV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Share to Deezer/Info.plist";
+				INFOPLIST_FILE = ShareToDeezer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Share to Deezer";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -565,7 +565,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D52W8PA2SV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Share to Deezer/Info.plist";
+				INFOPLIST_FILE = ShareToDeezer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Share to Deezer";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -896,7 +896,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "Share to Deezer" */ = {
+		48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "ShareToDeezer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48AEFC502B554AD7001B4F43 /* Debug */,
