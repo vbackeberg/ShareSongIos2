@@ -14,6 +14,15 @@
 		48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* ActionViewController.swift */; };
 		48AEFC4A2B554AD7001B4F43 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC482B554AD7001B4F43 /* MainInterface.storyboard */; };
 		48AEFC4E2B554AD7001B4F43 /* Share to Deezer.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
+		48E78F702B65732B00E54093 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F6F2B65732B00E54093 /* Media.xcassets */; };
+		48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */; };
+		48E78F752B65732B00E54093 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F732B65732B00E54093 /* MainInterface.storyboard */; };
+		48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
+		48E78F7F2B65749100E54093 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
+		48E78F812B657A0B00E54093 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
+		48E78F822B657A1300E54093 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		FD402A5B2B46F1DF00E98DEF /* ShareSongIos2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A5A2B46F1DF00E98DEF /* ShareSongIos2App.swift */; };
 		FD402A5D2B46F1DF00E98DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A5C2B46F1DF00E98DEF /* ContentView.swift */; };
 		FD402A612B46F1E200E98DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD402A602B46F1E200E98DEF /* Assets.xcassets */; };
@@ -30,6 +39,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 48AEFC402B554AD6001B4F43;
 			remoteInfo = "Share to Deezer";
+		};
+		48E78F772B65732B00E54093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E78F6B2B65732B00E54093;
+			remoteInfo = ShareToSpotify;
 		};
 		FD402A6A2B46F1E200E98DEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,6 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */,
 				48AEFC4E2B554AD7001B4F43 /* Share to Deezer.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -70,6 +87,12 @@
 		48AEFC462B554AD7001B4F43 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		48AEFC492B554AD7001B4F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		48AEFC4B2B554AD7001B4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToSpotify.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E78F6F2B65732B00E54093 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyActionViewController.swift; sourceTree = "<group>"; };
+		48E78F742B65732B00E54093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		48E78F762B65732B00E54093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E78F7D2B65737000E54093 /* BaseActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseActionViewController.swift; sourceTree = "<group>"; };
 		FD402A572B46F1DF00E98DEF /* ShareSongIos2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSongIos2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD402A5A2B46F1DF00E98DEF /* ShareSongIos2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongIos2App.swift; sourceTree = "<group>"; };
 		FD402A5C2B46F1DF00E98DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +112,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E78F692B65732B00E54093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +152,7 @@
 			children = (
 				4809B1FD2B58302D001F4EEF /* OriginUrls.swift */,
 				4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */,
+				48E78F7D2B65737000E54093 /* BaseActionViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -144,6 +176,17 @@
 			path = "Share to Deezer";
 			sourceTree = "<group>";
 		};
+		48E78F6E2B65732B00E54093 /* ShareToSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				48E78F6F2B65732B00E54093 /* Media.xcassets */,
+				48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */,
+				48E78F732B65732B00E54093 /* MainInterface.storyboard */,
+				48E78F762B65732B00E54093 /* Info.plist */,
+			);
+			path = ShareToSpotify;
+			sourceTree = "<group>";
+		};
 		FD402A4E2B46F1DF00E98DEF = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +195,7 @@
 				FD402A6C2B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A762B46F1E200E98DEF /* ShareSongIos2UITests */,
 				48AEFC432B554AD7001B4F43 /* Share to Deezer */,
+				48E78F6E2B65732B00E54093 /* ShareToSpotify */,
 				48A66C582B5410550092025F /* Frameworks */,
 				FD402A582B46F1DF00E98DEF /* Products */,
 			);
@@ -164,6 +208,7 @@
 				FD402A692B46F1E200E98DEF /* ShareSongIos2Tests.xctest */,
 				FD402A732B46F1E200E98DEF /* ShareSongIos2UITests.xctest */,
 				48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */,
+				48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +270,23 @@
 			productReference = 48AEFC412B554AD6001B4F43 /* Share to Deezer.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		48E78F6B2B65732B00E54093 /* ShareToSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */;
+			buildPhases = (
+				48E78F682B65732B00E54093 /* Sources */,
+				48E78F692B65732B00E54093 /* Frameworks */,
+				48E78F6A2B65732B00E54093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareToSpotify;
+			productName = ShareToSpotify;
+			productReference = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FD402A562B46F1DF00E98DEF /* ShareSongIos2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD402A7D2B46F1E200E98DEF /* Build configuration list for PBXNativeTarget "ShareSongIos2" */;
@@ -238,6 +300,7 @@
 			);
 			dependencies = (
 				48AEFC4D2B554AD7001B4F43 /* PBXTargetDependency */,
+				48E78F782B65732B00E54093 /* PBXTargetDependency */,
 			);
 			name = ShareSongIos2;
 			productName = ShareSongIos2;
@@ -293,6 +356,9 @@
 					48AEFC402B554AD6001B4F43 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					48E78F6B2B65732B00E54093 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					FD402A562B46F1DF00E98DEF = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -323,6 +389,7 @@
 				FD402A682B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A722B46F1E200E98DEF /* ShareSongIos2UITests */,
 				48AEFC402B554AD6001B4F43 /* Share to Deezer */,
+				48E78F6B2B65732B00E54093 /* ShareToSpotify */,
 			);
 		};
 /* End PBXProject section */
@@ -334,6 +401,15 @@
 			files = (
 				48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */,
 				48AEFC4A2B554AD7001B4F43 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E78F6A2B65732B00E54093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E78F702B65732B00E54093 /* Media.xcassets in Resources */,
+				48E78F752B65732B00E54093 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +444,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4809B1FE2B58302D001F4EEF /* OriginUrls.swift in Sources */,
+				48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */,
 				4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */,
 				48AEFC472B554AD7001B4F43 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E78F682B65732B00E54093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E78F812B657A0B00E54093 /* OriginUrls.swift in Sources */,
+				48E78F822B657A1300E54093 /* ShareSongClient.swift in Sources */,
+				48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */,
+				48E78F7F2B65749100E54093 /* BaseActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +495,11 @@
 			target = 48AEFC402B554AD6001B4F43 /* Share to Deezer */;
 			targetProxy = 48AEFC4C2B554AD7001B4F43 /* PBXContainerItemProxy */;
 		};
+		48E78F782B65732B00E54093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E78F6B2B65732B00E54093 /* ShareToSpotify */;
+			targetProxy = 48E78F772B65732B00E54093 /* PBXContainerItemProxy */;
+		};
 		FD402A6B2B46F1E200E98DEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FD402A562B46F1DF00E98DEF /* ShareSongIos2 */;
@@ -424,6 +517,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				48AEFC492B554AD7001B4F43 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		48E78F732B65732B00E54093 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E78F742B65732B00E54093 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -475,6 +576,58 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.valerian.sharesongios.ShareSongIos2.Share-to-Deezer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48E78F7A2B65732B00E54093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D52W8PA2SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareToSpotify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareToSpotify;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48E78F7B2B65732B00E54093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D52W8PA2SV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareToSpotify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareToSpotify;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToSpotify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -748,6 +901,15 @@
 			buildConfigurations = (
 				48AEFC502B554AD7001B4F43 /* Debug */,
 				48AEFC512B554AD7001B4F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E78F7A2B65732B00E54093 /* Debug */,
+				48E78F7B2B65732B00E54093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
