@@ -12,6 +12,9 @@
 		4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		48A6EED32B6A6D970096F7CF /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		48A6EED42B6A6D9B0096F7CF /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
+		48A779302B6AAF250086049C /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
+		48A779312B6AAF250086049C /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
+		48A779322B6AAF250086049C /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
 		48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC442B554AD7001B4F43 /* Media.xcassets */; };
 		48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */; };
@@ -100,6 +103,7 @@
 		4809B1FD2B58302D001F4EEF /* OriginUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginUrls.swift; sourceTree = "<group>"; };
 		4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		48A7792F2B6AAF250086049C /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 		48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToDeezer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AEFC442B554AD7001B4F43 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerActionViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */,
 				48E78F7D2B65737000E54093 /* BaseActionViewController.swift */,
 				48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */,
+				48A7792F2B6AAF250086049C /* LoadingScreen.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 			files = (
 				48F623BE2B66D8A80041B75C /* LoadingAnimation.swift in Sources */,
 				4809B1FE2B58302D001F4EEF /* OriginUrls.swift in Sources */,
+				48A779302B6AAF250086049C /* LoadingScreen.swift in Sources */,
 				48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */,
 				4809B2002B58304F001F4EEF /* ShareSongClient.swift in Sources */,
 				48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */,
@@ -531,6 +537,7 @@
 			files = (
 				48F623BF2B66D8A80041B75C /* LoadingAnimation.swift in Sources */,
 				48E78F812B657A0B00E54093 /* OriginUrls.swift in Sources */,
+				48A779312B6AAF250086049C /* LoadingScreen.swift in Sources */,
 				48E78F822B657A1300E54093 /* ShareSongClient.swift in Sources */,
 				48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */,
 				48E78F7F2B65749100E54093 /* BaseActionViewController.swift in Sources */,
@@ -543,6 +550,7 @@
 			files = (
 				48F623CA2B66D91D0041B75C /* ActionViewController.swift in Sources */,
 				48DD8C292B6A6690001C7FFD /* BaseActionViewController.swift in Sources */,
+				48A779322B6AAF250086049C /* LoadingScreen.swift in Sources */,
 				48A6EED32B6A6D970096F7CF /* ShareSongClient.swift in Sources */,
 				48A6EED42B6A6D9B0096F7CF /* OriginUrls.swift in Sources */,
 				4804122F2B694E8800C7D17A /* LoadingAnimation.swift in Sources */,

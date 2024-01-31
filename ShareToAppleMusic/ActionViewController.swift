@@ -5,7 +5,7 @@ import UniformTypeIdentifiers
 
 /// A UI Kit ViewController that houses a SwiftUI View
 class ActionViewController: UIViewController {
-    let uiHostingController = UIHostingController(rootView: LoadingAnimation())
+    lazy var uiHostingController = UIHostingController(rootView: LoadingScreen(close: close))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,7 +13,7 @@ class ActionViewController: UIViewController {
         view.addSubview(uiHostingController.view)
         setupConstraints()
     }
-    
+
     private func setupConstraints() {
         uiHostingController.view.translatesAutoresizingMaskIntoConstraints = false
         uiHostingController.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
@@ -22,9 +22,7 @@ class ActionViewController: UIViewController {
         uiHostingController.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     }
 
-    @IBAction func done() {
-        // Return any edited content to the host app.
-        // This template doesn't do anything, so we just echo the passed in items.
-        extensionContext!.completeRequest(returningItems: extensionContext!.inputItems, completionHandler: nil)
+    func close() {
+        extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
     }
 }
