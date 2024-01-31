@@ -20,7 +20,7 @@
 			<string>NSActionTemplate</string>
 		</dict>
 		<key>NSExtensionPrincipalClass</key>
-		<string>$(PRODUCT_MODULE_NAME).ActionViewController</string>
+		<string>$(PRODUCT_MODULE_NAME).AppleMusicActionViewController</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
 	</dict>
