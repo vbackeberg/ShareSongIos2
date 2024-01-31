@@ -2,7 +2,6 @@ import SwiftUI
 
 struct LoadingScreen: View {
     var close: () -> Void
-    @State private var isShowingSheet = false
 
     var body: some View {
         VStack {
@@ -12,6 +11,7 @@ struct LoadingScreen: View {
             }
 
             Spacer()
+            Text("Looking for your song").font(.system(size: 16)).padding()
             LoadingAnimation(close: close)
             Spacer()
         }
@@ -26,32 +26,32 @@ struct LoadingScreen: View {
 /// See: https://stackoverflow.com/a/73629513/13249319
 struct CloseButton: UIViewRepresentable {
     private let action: () -> Void
-    
+
     init(action: @escaping () -> Void) {
         self.action = action
     }
-    
+
     func makeUIView(context: Context) -> UIButton {
         let button = UIButton(type: .close)
         button.addTarget(context.coordinator, action: #selector(Coordinator.perform), for: .primaryActionTriggered)
         return button
     }
-    
+
     func updateUIView(_ uiView: UIButton, context: Context) {
         context.coordinator.action = action
     }
-    
+
     func makeCoordinator() -> Coordinator {
         Coordinator(action: action)
     }
-    
+
     class Coordinator {
         var action: () -> Void
-        
+
         init(action: @escaping () -> Void) {
             self.action = action
         }
-        
+
         @objc func perform() {
             action()
         }
