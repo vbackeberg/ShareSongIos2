@@ -52,12 +52,10 @@ class BaseActionViewController: UIViewController {
                             } catch {
                                 print("Error: \(error)")
                                 
-                                let targetServiceDisplayName = "Deezer"
-                                
                                 // Show an alert
                                 let alert = UIAlertController(
                                     title: "Error",
-                                    message: "Sorry, your song could not be converted. Maybe, it wasn't found on \(targetServiceDisplayName).",
+                                    message: "Sorry, your song could not be converted. Maybe, it wasn't found on \(strongSelf.targetServiceName).",
                                     preferredStyle: .alert)
                                 
                                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
