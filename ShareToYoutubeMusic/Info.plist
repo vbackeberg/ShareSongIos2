@@ -30,7 +30,7 @@
 			<string>NSActionTemplate</string>
 		</dict>
 		<key>NSExtensionPrincipalClass</key>
-		<string>$(PRODUCT_MODULE_NAME).AppleMusicActionViewController</string>
+		<string>$(PRODUCT_MODULE_NAME).YoutubeMusicActionViewController</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
 	</dict>
