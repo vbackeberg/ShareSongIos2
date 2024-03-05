@@ -26,7 +26,7 @@ struct SongView: View {
     var body: some View {
         HStack {
             // Song cover
-            Image("SharePreview")
+            Image("SharePreview2")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 100, height: 100)
