@@ -7,7 +7,7 @@
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleSymbolName</key>
-			<string>YoutubeMusicActionExtensionIcon</string>
+			<string>play.circle.fill</string>
 		</dict>
 	</dict>
 	<key>NSExtension</key>
