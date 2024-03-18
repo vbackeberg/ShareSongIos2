@@ -29,11 +29,11 @@ class BaseActionViewController: UIViewController {
                             message: "Sorry, this link is not supported. We can only convert songs.",
                             preferredStyle: .alert)
                         
-                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+                            strongSelf.close()
+                        }))
                         DispatchQueue.main.async {
-                            strongSelf.present(alert, animated: true, completion: {
-                                strongSelf.close()
-                            })
+                            strongSelf.present(alert, animated: true)
                         }
                         
                     } else {
@@ -50,7 +50,7 @@ class BaseActionViewController: UIViewController {
                                 
                                 let targetServiceUrl = URL(string: conversionResponse.targetServiceUrl)!
                                 
-                                strongSelf.shareURL(targetServiceUrl)
+                                strongSelf.shareURL(targetServiceUrl, self: strongSelf)
                                 
                             } catch {
                                 print("Error: \(error)")
@@ -61,11 +61,11 @@ class BaseActionViewController: UIViewController {
                                     message: "Sorry, your song could not be converted. Maybe, it wasn't found on \(strongSelf.targetServiceDisplayName).",
                                     preferredStyle: .alert)
                                 
-                                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+                                    strongSelf.close()
+                                }))
                                 DispatchQueue.main.async {
-                                    strongSelf.present(alert, animated: true, completion: {
-                                        strongSelf.close()
-                                    })
+                                    strongSelf.present(alert, animated: true)
                                 }
                             }
                         }
@@ -101,9 +101,13 @@ class BaseActionViewController: UIViewController {
     }
     
     /// Opens a share sheet with the new URL.
-    private func shareURL(_ url: URL) {
+    private func shareURL(_ url: URL, self: BaseActionViewController) {
         let items = [url]
         let activityViewController = UIActivityViewController(activityItems: items, applicationActivities: nil)
+        
+        activityViewController.completionWithItemsHandler = { _, _, _, _ in
+            self.close()
+        }
         
         present(activityViewController, animated: true)
     }
