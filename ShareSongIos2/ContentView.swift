@@ -3,6 +3,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var responseText: String = ""
+    
+    @State private var originServiceUrl: String = ""
+    @State private var showConversion: = false
+    enum Service: String, CaseIterable, Identifiable {
+        case Spotify, AppleMusic, YoutubeMusic, Deezer, Tidal
+        var id: Self { self }
+    }
+    @State private var selectedService: Service = Service.AppleMusic
 
     var body: some View {
         VStack(spacing: 16) {
@@ -16,61 +24,42 @@ struct ContentView: View {
                 .padding()
                 .font(.system(size: 16))
 
-            SongView().padding()
+            TextField("Enter a song link", text: $originServiceUrl)
+            List {
+                Picker("Choose music service", selection: $selectedService) {
+                    Text("Spotify").tag(Service.Spotify)
+                    Text("Apple Music").tag(Service.AppleMusic)
+                    Text("Youtube Music").tag(Service.YoutubeMusic)
+                    Text("Deezer").tag(Service.Deezer)
+                    Text("Tidal").tag(Service.Tidal)
+                }
+            }
+            
+            Button() {
+                showConversion = true
+            }.sheet(isPresented: $showConversion) {
+                ConversionViewController(originServiceUrl, targetServiceName=selectedService.rawValue)
+            }
+            
             Spacer()
         }
     }
-}
-
-struct SongView: View {
-    var body: some View {
-        HStack {
-            // Song cover
-            Image("SharePreview2")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 100, height: 100)
-                .cornerRadius(10)
-                .shadow(radius: 8)
-
-            // Song details and share button
-            VStack(alignment: .leading) {
-                Text("Cruel Summer")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                Text("Taylor Swift")
-                    .font(.subheadline)
-                    .foregroundColor(.white)
-
-                Spacer()
-
-                HStack {
-                    Spacer()
-
-                    Button {
-                        let AV = UIActivityViewController(activityItems:
-                            [URL(string: "https://open.spotify.com/intl-de/track/1BxfuPKGuaTgP7aM0Bbdwr?si=01f6a5dcfed240b8")!],
-                            applicationActivities: nil)
-                        let activeScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene
-                        let rootViewController = (activeScene?.windows ?? []).first(where: { $0.isKeyWindow })?.rootViewController
-                        // for iPad. if condition is optional.
-                        if UIDevice.current.userInterfaceIdiom == .pad {
-                            AV.popoverPresentationController?.sourceView = rootViewController?.view
-                            AV.popoverPresentationController?.sourceRect = .zero
-                        }
-                        rootViewController?.present(AV, animated: true, completion: nil)
-
-                    } label: {
-                        Image(systemName: "square.and.arrow.up").foregroundColor(.white).font(.system(size: 32)).frame(width: 40, height: 40)
-                    }
-                }
-            }
-            .padding(.horizontal)
+    
+    struct ConversionViewController: UIViewControllerRepresentable {
+        let originServiceUrl: String
+        let targetServiceName: String
+        
+        func makeUIViewController(context: Context) -> BaseActionViewController {
+            let baseActionViewController = BaseActionViewController()
+            baseActionViewController.targetServiceName = targetServiceName
+            baseActionViewController.
+            
+            return baseActionViewController
         }
-        .padding()
-        .background(Color(red: 180 / 255, green: 142 / 255, blue: 173 / 255))
-        .cornerRadius(16)
-        .frame(height: 120)
+
+        func updateUIViewController(_ uiViewController: BaseActionViewController, context: Context) {
+            code
+        }
     }
 }
 
