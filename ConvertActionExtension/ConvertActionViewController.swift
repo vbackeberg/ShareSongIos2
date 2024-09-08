@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import UniformTypeIdentifiers
 
-class SpotifyActionViewController: UIViewController {
+class ConvertActionViewController: UIViewController {
     var targetServiceName: String { "" }
     var targetServiceDisplayName: String { targetServiceName }
     private lazy var uiHostingController = UIHostingController(rootView: LoadingScreen(close: close))
@@ -104,7 +104,7 @@ class SpotifyActionViewController: UIViewController {
         extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
     }
     
-    func openUrl(url: URL?, self: SpotifyActionViewController) {
+    func openUrl(url: URL?, self: ConvertActionViewController) {
         let selector = sel_registerName("openURL:")
         var responder = self as UIResponder?
         while let r = responder, !r.responds(to: selector) {
