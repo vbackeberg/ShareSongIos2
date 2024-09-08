@@ -1,8 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedService: String = UserDefaults.standard.string(forKey: "serviceOfUser") ?? "no"
-    
+    @AppStorage("serviceOfUser", store: UserDefaults(suiteName: "group.com.valerian.sharesongios"))
+    var selectedService: String = "no"
+
     private let items: [String: String] = [
         "Spotify": "Spotify",
         "Deezer": "Deezer",
@@ -46,7 +47,7 @@ struct ContentView: View {
     
     // Function to save selected service to UserDefaults
     func saveSelectedService(service: String) {
-        UserDefaults.standard.set(service, forKey: "serviceOfUser")
+        selectedService = service
     }
 }
 
