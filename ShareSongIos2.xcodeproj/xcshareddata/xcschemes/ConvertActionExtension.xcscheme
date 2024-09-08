@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1520"
+   LastUpgradeVersion = "1540"
+   wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "48E78F6B2B65732B00E54093"
-               BuildableName = "ShareToSpotify.appex"
-               BlueprintName = "ShareToSpotify"
+               BuildableName = "ConvertActionExtension.appex"
+               BlueprintName = "ConvertActionExtension"
                ReferencedContainer = "container:ShareSongIos2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,30 +44,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD402A682B46F1E200E98DEF"
-               BuildableName = "ShareSongIos2Tests.xctest"
-               BlueprintName = "ShareSongIos2Tests"
-               ReferencedContainer = "container:ShareSongIos2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD402A722B46F1E200E98DEF"
-               BuildableName = "ShareSongIos2UITests.xctest"
-               BlueprintName = "ShareSongIos2UITests"
-               ReferencedContainer = "container:ShareSongIos2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"

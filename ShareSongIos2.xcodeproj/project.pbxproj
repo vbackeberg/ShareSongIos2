@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48E78F702B65732B00E54093 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F6F2B65732B00E54093 /* Media.xcassets */; };
-		48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48E78F792B65732B00E54093 /* ConvertActionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E78F6C2B65732B00E54093 /* ConvertActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CC2B48BF2C8E0A0F00D7886F /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
 		CC2B48C12C8E0A3900D7886F /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
 		CC2B48C22C8E0A3E00D7886F /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
@@ -60,7 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */,
+				48E78F792B65732B00E54093 /* ConvertActionExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +72,7 @@
 		4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		48A7792F2B6AAF250086049C /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
-		48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToSpotify.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E78F6C2B65732B00E54093 /* ConvertActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ConvertActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E78F6F2B65732B00E54093 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		48E78F712B65732B00E54093 /* ConvertActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertActionViewController.swift; sourceTree = "<group>"; };
 		48E78F762B65732B00E54093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 				FD402A572B46F1DF00E98DEF /* ShareSongIos2.app */,
 				FD402A692B46F1E200E98DEF /* ShareSongIos2Tests.xctest */,
 				FD402A732B46F1E200E98DEF /* ShareSongIos2UITests.xctest */,
-				48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */,
+				48E78F6C2B65732B00E54093 /* ConvertActionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48E78F6B2B65732B00E54093 /* ShareToSpotify */ = {
+		48E78F6B2B65732B00E54093 /* ConvertActionExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */;
+			buildConfigurationList = 48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ConvertActionExtension" */;
 			buildPhases = (
 				48E78F682B65732B00E54093 /* Sources */,
 				48E78F692B65732B00E54093 /* Frameworks */,
@@ -224,9 +224,9 @@
 			);
 			dependencies = (
 			);
-			name = ShareToSpotify;
+			name = ConvertActionExtension;
 			productName = ShareToSpotify;
-			productReference = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */;
+			productReference = 48E78F6C2B65732B00E54093 /* ConvertActionExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		FD402A562B46F1DF00E98DEF /* ShareSongIos2 */ = {
@@ -326,7 +326,7 @@
 				FD402A562B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A682B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A722B46F1E200E98DEF /* ShareSongIos2UITests */,
-				48E78F6B2B65732B00E54093 /* ShareToSpotify */,
+				48E78F6B2B65732B00E54093 /* ConvertActionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -414,7 +414,7 @@
 /* Begin PBXTargetDependency section */
 		48E78F782B65732B00E54093 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48E78F6B2B65732B00E54093 /* ShareToSpotify */;
+			target = 48E78F6B2B65732B00E54093 /* ConvertActionExtension */;
 			targetProxy = 48E78F772B65732B00E54093 /* PBXContainerItemProxy */;
 		};
 		FD402A6B2B46F1E200E98DEF /* PBXTargetDependency */ = {
@@ -754,7 +754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */ = {
+		48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ConvertActionExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48E78F7A2B65732B00E54093 /* Debug */,
