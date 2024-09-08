@@ -7,51 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
-		48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFC442B554AD7001B4F43 /* Media.xcassets */; };
-		48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */; };
-		48AEFC4E2B554AD7001B4F43 /* ShareToDeezer.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		48DD8C292B6A6690001C7FFD /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
 		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48E78F702B65732B00E54093 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F6F2B65732B00E54093 /* Media.xcassets */; };
-		48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */; };
 		48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
-		48E78F7F2B65749100E54093 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
-		48E8B0122B6AD0810028AC33 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
-		48E8B0152B6AD0810028AC33 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B0142B6AD0810028AC33 /* Media.xcassets */; };
-		48E8B0172B6AD0810028AC33 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B0162B6AD0810028AC33 /* ActionViewController.swift */; };
-		48E8B01E2B6AD0810028AC33 /* ShareToTidal.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E8B0112B6AD0800028AC33 /* ShareToTidal.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		48E8B0272B6AD0FD0028AC33 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
-		48E8B02A2B6AD0FE0028AC33 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B0292B6AD0FE0028AC33 /* Media.xcassets */; };
-		48E8B02C2B6AD0FE0028AC33 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B02B2B6AD0FE0028AC33 /* ActionViewController.swift */; };
-		48E8B0332B6AD0FE0028AC33 /* ShareToYoutubeMusic.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E8B0262B6AD0FD0028AC33 /* ShareToYoutubeMusic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		48E8B0372B6AD13A0028AC33 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
-		48E8B0382B6AD13A0028AC33 /* BaseActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F7D2B65737000E54093 /* BaseActionViewController.swift */; };
-		48E8B03D2B6AD1C10028AC33 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
-		48E8B03E2B6AD1C10028AC33 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
-		48E8B03F2B6AD1C10028AC33 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
-		48E8B0412B6AD1C20028AC33 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
-		48E8B0422B6AD1C20028AC33 /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
-		48E8B0432B6AD1C50028AC33 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
-		48E8B0442B6AD1C60028AC33 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
-		48E8B0452B6AD1C60028AC33 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
-		48E8B0462B6AD1C60028AC33 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
-		48E8B0472B6AD1C70028AC33 /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
-		48E8B0482B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
-		48E8B0492B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
-		48E8B04A2B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
-		48E8B04B2B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
-		48E8B04C2B6AD1CF0028AC33 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
-		48E8B04D2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
-		48E8B04E2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
-		48E8B04F2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
-		48E8B0502B6AD1D30028AC33 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
-		48E8B0512B6AD1D30028AC33 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
-		48F623C52B66D91D0041B75C /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
-		48F623C82B66D91D0041B75C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F623C72B66D91D0041B75C /* Media.xcassets */; };
-		48F623CA2B66D91D0041B75C /* AppleMusicActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623C92B66D91D0041B75C /* AppleMusicActionViewController.swift */; };
-		48F623D12B66D91D0041B75C /* ShareToAppleMusic.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48F623C42B66D91D0041B75C /* ShareToAppleMusic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC2B48BF2C8E0A0F00D7886F /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
+		CC2B48C12C8E0A3900D7886F /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
+		CC2B48C22C8E0A3E00D7886F /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
+		CC2B48C42C8E0ADC00D7886F /* SpotifyActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */; };
+		CC2B48C72C8E0B4800D7886F /* ShareSongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */; };
 		FD402A5B2B46F1DF00E98DEF /* ShareSongIos2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A5A2B46F1DF00E98DEF /* ShareSongIos2App.swift */; };
 		FD402A5D2B46F1DF00E98DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD402A5C2B46F1DF00E98DEF /* ContentView.swift */; };
 		FD402A612B46F1E200E98DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD402A602B46F1E200E98DEF /* Assets.xcassets */; };
@@ -62,40 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48AEFC4C2B554AD7001B4F43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48AEFC402B554AD6001B4F43;
-			remoteInfo = ShareToDeezer;
-		};
 		48E78F772B65732B00E54093 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48E78F6B2B65732B00E54093;
 			remoteInfo = ShareToSpotify;
-		};
-		48E8B01C2B6AD0810028AC33 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48E8B0102B6AD0800028AC33;
-			remoteInfo = ShareToTidal;
-		};
-		48E8B0312B6AD0FE0028AC33 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48E8B0252B6AD0FD0028AC33;
-			remoteInfo = ShareToYoutubeMusic;
-		};
-		48F623CF2B66D91D0041B75C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD402A4F2B46F1DF00E98DEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48F623C32B66D91D0041B75C;
-			remoteInfo = ShareToAppleMusic;
 		};
 		FD402A6A2B46F1E200E98DEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -121,10 +56,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				48E78F792B65732B00E54093 /* ShareToSpotify.appex in Embed Foundation Extensions */,
-				48AEFC4E2B554AD7001B4F43 /* ShareToDeezer.appex in Embed Foundation Extensions */,
-				48E8B0332B6AD0FE0028AC33 /* ShareToYoutubeMusic.appex in Embed Foundation Extensions */,
-				48E8B01E2B6AD0810028AC33 /* ShareToTidal.appex in Embed Foundation Extensions */,
-				48F623D12B66D91D0041B75C /* ShareToAppleMusic.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,28 +67,11 @@
 		4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSongClient.swift; sourceTree = "<group>"; };
 		48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		48A7792F2B6AAF250086049C /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
-		48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToDeezer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		48AEFC442B554AD7001B4F43 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerActionViewController.swift; sourceTree = "<group>"; };
-		48AEFC4B2B554AD7001B4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToSpotify.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E78F6F2B65732B00E54093 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyActionViewController.swift; sourceTree = "<group>"; };
 		48E78F762B65732B00E54093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48E78F7D2B65737000E54093 /* BaseActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseActionViewController.swift; sourceTree = "<group>"; };
-		48E8B0112B6AD0800028AC33 /* ShareToTidal.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToTidal.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E8B0142B6AD0810028AC33 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		48E8B0162B6AD0810028AC33 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		48E8B01B2B6AD0810028AC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48E8B0262B6AD0FD0028AC33 /* ShareToYoutubeMusic.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToYoutubeMusic.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E8B0292B6AD0FE0028AC33 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		48E8B02B2B6AD0FE0028AC33 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		48E8B0302B6AD0FE0028AC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
-		48F623C42B66D91D0041B75C /* ShareToAppleMusic.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareToAppleMusic.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F623C72B66D91D0041B75C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		48F623C92B66D91D0041B75C /* AppleMusicActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicActionViewController.swift; sourceTree = "<group>"; };
-		48F623CE2B66D91D0041B75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC2B48B82C8DF20F00D7886F /* ShareSongIos2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareSongIos2.entitlements; sourceTree = "<group>"; };
 		CC2B48B92C8DFC1400D7886F /* ShareToSpotify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareToSpotify.entitlements; sourceTree = "<group>"; };
 		FD402A572B46F1DF00E98DEF /* ShareSongIos2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSongIos2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,43 +88,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48AEFC3E2B554AD6001B4F43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48AEFC422B554AD7001B4F43 /* UniformTypeIdentifiers.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48E78F692B65732B00E54093 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B00E2B6AD0800028AC33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B0122B6AD0810028AC33 /* UniformTypeIdentifiers.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B0232B6AD0FD0028AC33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B0272B6AD0FD0028AC33 /* UniformTypeIdentifiers.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48F623C12B66D91D0041B75C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48F623C52B66D91D0041B75C /* UniformTypeIdentifiers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,18 +120,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4809B1FC2B582FF8001F4EEF /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				4809B1FD2B58302D001F4EEF /* OriginUrls.swift */,
-				4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */,
-				48E78F7D2B65737000E54093 /* BaseActionViewController.swift */,
-				48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */,
-				48A7792F2B6AAF250086049C /* LoadingScreen.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		48A66C582B5410550092025F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,19 +128,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48AEFC432B554AD7001B4F43 /* ShareToDeezer */ = {
-			isa = PBXGroup;
-			children = (
-				48AEFC442B554AD7001B4F43 /* Media.xcassets */,
-				48AEFC462B554AD7001B4F43 /* DeezerActionViewController.swift */,
-				48AEFC4B2B554AD7001B4F43 /* Info.plist */,
-			);
-			path = ShareToDeezer;
-			sourceTree = "<group>";
-		};
 		48E78F6E2B65732B00E54093 /* ShareToSpotify */ = {
 			isa = PBXGroup;
 			children = (
+				4809B1FD2B58302D001F4EEF /* OriginUrls.swift */,
+				48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */,
+				48A7792F2B6AAF250086049C /* LoadingScreen.swift */,
+				4809B1FF2B58304F001F4EEF /* ShareSongClient.swift */,
 				CC2B48B92C8DFC1400D7886F /* ShareToSpotify.entitlements */,
 				48E78F6F2B65732B00E54093 /* Media.xcassets */,
 				48E78F712B65732B00E54093 /* SpotifyActionViewController.swift */,
@@ -279,48 +143,13 @@
 			path = ShareToSpotify;
 			sourceTree = "<group>";
 		};
-		48E8B0132B6AD0810028AC33 /* ShareToTidal */ = {
-			isa = PBXGroup;
-			children = (
-				48E8B0142B6AD0810028AC33 /* Media.xcassets */,
-				48E8B0162B6AD0810028AC33 /* ActionViewController.swift */,
-				48E8B01B2B6AD0810028AC33 /* Info.plist */,
-			);
-			path = ShareToTidal;
-			sourceTree = "<group>";
-		};
-		48E8B0282B6AD0FE0028AC33 /* ShareToYoutubeMusic */ = {
-			isa = PBXGroup;
-			children = (
-				48E8B0292B6AD0FE0028AC33 /* Media.xcassets */,
-				48E8B02B2B6AD0FE0028AC33 /* ActionViewController.swift */,
-				48E8B0302B6AD0FE0028AC33 /* Info.plist */,
-			);
-			path = ShareToYoutubeMusic;
-			sourceTree = "<group>";
-		};
-		48F623C62B66D91D0041B75C /* ShareToAppleMusic */ = {
-			isa = PBXGroup;
-			children = (
-				48F623C72B66D91D0041B75C /* Media.xcassets */,
-				48F623C92B66D91D0041B75C /* AppleMusicActionViewController.swift */,
-				48F623CE2B66D91D0041B75C /* Info.plist */,
-			);
-			path = ShareToAppleMusic;
-			sourceTree = "<group>";
-		};
 		FD402A4E2B46F1DF00E98DEF = {
 			isa = PBXGroup;
 			children = (
-				4809B1FC2B582FF8001F4EEF /* Common */,
 				FD402A592B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A6C2B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A762B46F1E200E98DEF /* ShareSongIos2UITests */,
-				48AEFC432B554AD7001B4F43 /* ShareToDeezer */,
 				48E78F6E2B65732B00E54093 /* ShareToSpotify */,
-				48F623C62B66D91D0041B75C /* ShareToAppleMusic */,
-				48E8B0132B6AD0810028AC33 /* ShareToTidal */,
-				48E8B0282B6AD0FE0028AC33 /* ShareToYoutubeMusic */,
 				48A66C582B5410550092025F /* Frameworks */,
 				FD402A582B46F1DF00E98DEF /* Products */,
 			);
@@ -332,11 +161,7 @@
 				FD402A572B46F1DF00E98DEF /* ShareSongIos2.app */,
 				FD402A692B46F1E200E98DEF /* ShareSongIos2Tests.xctest */,
 				FD402A732B46F1E200E98DEF /* ShareSongIos2UITests.xctest */,
-				48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */,
 				48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */,
-				48F623C42B66D91D0041B75C /* ShareToAppleMusic.appex */,
-				48E8B0112B6AD0800028AC33 /* ShareToTidal.appex */,
-				48E8B0262B6AD0FD0028AC33 /* ShareToYoutubeMusic.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,23 +207,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48AEFC402B554AD6001B4F43 /* ShareToDeezer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "ShareToDeezer" */;
-			buildPhases = (
-				48AEFC3D2B554AD6001B4F43 /* Sources */,
-				48AEFC3E2B554AD6001B4F43 /* Frameworks */,
-				48AEFC3F2B554AD6001B4F43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShareToDeezer;
-			productName = ShareToDeezer;
-			productReference = 48AEFC412B554AD6001B4F43 /* ShareToDeezer.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		48E78F6B2B65732B00E54093 /* ShareToSpotify */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */;
@@ -416,57 +224,6 @@
 			productReference = 48E78F6C2B65732B00E54093 /* ShareToSpotify.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		48E8B0102B6AD0800028AC33 /* ShareToTidal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48E8B01F2B6AD0810028AC33 /* Build configuration list for PBXNativeTarget "ShareToTidal" */;
-			buildPhases = (
-				48E8B00D2B6AD0800028AC33 /* Sources */,
-				48E8B00E2B6AD0800028AC33 /* Frameworks */,
-				48E8B00F2B6AD0800028AC33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShareToTidal;
-			productName = ShareToTidal;
-			productReference = 48E8B0112B6AD0800028AC33 /* ShareToTidal.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		48E8B0252B6AD0FD0028AC33 /* ShareToYoutubeMusic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48E8B0342B6AD0FF0028AC33 /* Build configuration list for PBXNativeTarget "ShareToYoutubeMusic" */;
-			buildPhases = (
-				48E8B0222B6AD0FD0028AC33 /* Sources */,
-				48E8B0232B6AD0FD0028AC33 /* Frameworks */,
-				48E8B0242B6AD0FD0028AC33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShareToYoutubeMusic;
-			productName = ShareToYoutubeMusic;
-			productReference = 48E8B0262B6AD0FD0028AC33 /* ShareToYoutubeMusic.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		48F623C32B66D91D0041B75C /* ShareToAppleMusic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48F623D22B66D91D0041B75C /* Build configuration list for PBXNativeTarget "ShareToAppleMusic" */;
-			buildPhases = (
-				48F623C02B66D91D0041B75C /* Sources */,
-				48F623C12B66D91D0041B75C /* Frameworks */,
-				48F623C22B66D91D0041B75C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ShareToAppleMusic;
-			productName = ShareToAppleMusic;
-			productReference = 48F623C42B66D91D0041B75C /* ShareToAppleMusic.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		FD402A562B46F1DF00E98DEF /* ShareSongIos2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD402A7D2B46F1E200E98DEF /* Build configuration list for PBXNativeTarget "ShareSongIos2" */;
@@ -479,11 +236,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				48AEFC4D2B554AD7001B4F43 /* PBXTargetDependency */,
 				48E78F782B65732B00E54093 /* PBXTargetDependency */,
-				48F623D02B66D91D0041B75C /* PBXTargetDependency */,
-				48E8B01D2B6AD0810028AC33 /* PBXTargetDependency */,
-				48E8B0322B6AD0FE0028AC33 /* PBXTargetDependency */,
 			);
 			name = ShareSongIos2;
 			productName = ShareSongIos2;
@@ -536,19 +289,7 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					48AEFC402B554AD6001B4F43 = {
-						CreatedOnToolsVersion = 15.2;
-					};
 					48E78F6B2B65732B00E54093 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					48E8B0102B6AD0800028AC33 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					48E8B0252B6AD0FD0028AC33 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					48F623C32B66D91D0041B75C = {
 						CreatedOnToolsVersion = 15.2;
 					};
 					FD402A562B46F1DF00E98DEF = {
@@ -580,53 +321,17 @@
 				FD402A562B46F1DF00E98DEF /* ShareSongIos2 */,
 				FD402A682B46F1E200E98DEF /* ShareSongIos2Tests */,
 				FD402A722B46F1E200E98DEF /* ShareSongIos2UITests */,
-				48AEFC402B554AD6001B4F43 /* ShareToDeezer */,
 				48E78F6B2B65732B00E54093 /* ShareToSpotify */,
-				48F623C32B66D91D0041B75C /* ShareToAppleMusic */,
-				48E8B0102B6AD0800028AC33 /* ShareToTidal */,
-				48E8B0252B6AD0FD0028AC33 /* ShareToYoutubeMusic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48AEFC3F2B554AD6001B4F43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48AEFC452B554AD7001B4F43 /* Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48E78F6A2B65732B00E54093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48E78F702B65732B00E54093 /* Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B00F2B6AD0800028AC33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B0152B6AD0810028AC33 /* Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B0242B6AD0FD0028AC33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B02A2B6AD0FE0028AC33 /* Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48F623C22B66D91D0041B75C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48F623C82B66D91D0041B75C /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,68 +361,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48AEFC3D2B554AD6001B4F43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B0482B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */,
-				48E8B03D2B6AD1C10028AC33 /* OriginUrls.swift in Sources */,
-				48E8B04D2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */,
-				48E8B0472B6AD1C70028AC33 /* ShareSongClient.swift in Sources */,
-				48E78F7E2B65737000E54093 /* BaseActionViewController.swift in Sources */,
-				48AEFC472B554AD7001B4F43 /* DeezerActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48E78F682B65732B00E54093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E8B0492B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */,
-				48E8B03E2B6AD1C10028AC33 /* OriginUrls.swift in Sources */,
-				48E8B04E2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */,
-				48E8B0462B6AD1C60028AC33 /* ShareSongClient.swift in Sources */,
-				48E78F722B65732B00E54093 /* SpotifyActionViewController.swift in Sources */,
-				48E78F7F2B65749100E54093 /* BaseActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B00D2B6AD0800028AC33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B04B2B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */,
-				48E8B0422B6AD1C20028AC33 /* OriginUrls.swift in Sources */,
-				48E8B0502B6AD1D30028AC33 /* LoadingScreen.swift in Sources */,
-				48E8B0442B6AD1C60028AC33 /* ShareSongClient.swift in Sources */,
-				48E8B0172B6AD0810028AC33 /* ActionViewController.swift in Sources */,
-				48E8B0372B6AD13A0028AC33 /* BaseActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48E8B0222B6AD0FD0028AC33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B04C2B6AD1CF0028AC33 /* LoadingAnimation.swift in Sources */,
-				48E8B0412B6AD1C20028AC33 /* OriginUrls.swift in Sources */,
-				48E8B0512B6AD1D30028AC33 /* LoadingScreen.swift in Sources */,
-				48E8B0432B6AD1C50028AC33 /* ShareSongClient.swift in Sources */,
-				48E8B02C2B6AD0FE0028AC33 /* ActionViewController.swift in Sources */,
-				48E8B0382B6AD13A0028AC33 /* BaseActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48F623C02B66D91D0041B75C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48E8B04A2B6AD1CE0028AC33 /* LoadingAnimation.swift in Sources */,
-				48E8B03F2B6AD1C10028AC33 /* OriginUrls.swift in Sources */,
-				48E8B04F2B6AD1D20028AC33 /* LoadingScreen.swift in Sources */,
-				48E8B0452B6AD1C60028AC33 /* ShareSongClient.swift in Sources */,
-				48F623CA2B66D91D0041B75C /* AppleMusicActionViewController.swift in Sources */,
-				48DD8C292B6A6690001C7FFD /* BaseActionViewController.swift in Sources */,
+				CC2B48C22C8E0A3E00D7886F /* LoadingScreen.swift in Sources */,
+				CC2B48BF2C8E0A0F00D7886F /* OriginUrls.swift in Sources */,
+				CC2B48C72C8E0B4800D7886F /* ShareSongClient.swift in Sources */,
+				CC2B48C42C8E0ADC00D7886F /* SpotifyActionViewController.swift in Sources */,
+				CC2B48C12C8E0A3900D7886F /* LoadingAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,30 +402,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48AEFC4D2B554AD7001B4F43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48AEFC402B554AD6001B4F43 /* ShareToDeezer */;
-			targetProxy = 48AEFC4C2B554AD7001B4F43 /* PBXContainerItemProxy */;
-		};
 		48E78F782B65732B00E54093 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 48E78F6B2B65732B00E54093 /* ShareToSpotify */;
 			targetProxy = 48E78F772B65732B00E54093 /* PBXContainerItemProxy */;
-		};
-		48E8B01D2B6AD0810028AC33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48E8B0102B6AD0800028AC33 /* ShareToTidal */;
-			targetProxy = 48E8B01C2B6AD0810028AC33 /* PBXContainerItemProxy */;
-		};
-		48E8B0322B6AD0FE0028AC33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48E8B0252B6AD0FD0028AC33 /* ShareToYoutubeMusic */;
-			targetProxy = 48E8B0312B6AD0FE0028AC33 /* PBXContainerItemProxy */;
-		};
-		48F623D02B66D91D0041B75C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48F623C32B66D91D0041B75C /* ShareToAppleMusic */;
-			targetProxy = 48F623CF2B66D91D0041B75C /* PBXContainerItemProxy */;
 		};
 		FD402A6B2B46F1E200E98DEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -788,62 +420,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		48AEFC502B554AD7001B4F43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToDeezer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Deezer";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valerian.sharesongios.ShareSongIos2.Share-to-Deezer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		48AEFC512B554AD7001B4F43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToDeezer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Deezer";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valerian.sharesongios.ShareSongIos2.Share-to-Deezer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		48E78F7A2B65732B00E54093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -892,168 +468,6 @@
 				);
 				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToSpotify;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		48E8B0202B6AD0810028AC33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToTidal/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Tidal";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToTidal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		48E8B0212B6AD0810028AC33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToTidal/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Tidal";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToTidal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		48E8B0352B6AD0FF0028AC33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToYoutubeMusic/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Youtube Music";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToYoutubeMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		48E8B0362B6AD0FF0028AC33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToYoutubeMusic/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Youtube Music";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToYoutubeMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		48F623D32B66D91D0041B75C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToAppleMusic/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Apple Music";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToAppleMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		48F623D42B66D91D0041B75C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = D52W8PA2SV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShareToAppleMusic/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Share to Apple Music";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.valerian.sharesongios.ShareSongIos2.ShareToAppleMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1330,47 +744,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48AEFC4F2B554AD7001B4F43 /* Build configuration list for PBXNativeTarget "ShareToDeezer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48AEFC502B554AD7001B4F43 /* Debug */,
-				48AEFC512B554AD7001B4F43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		48E78F7C2B65732B00E54093 /* Build configuration list for PBXNativeTarget "ShareToSpotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48E78F7A2B65732B00E54093 /* Debug */,
 				48E78F7B2B65732B00E54093 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48E8B01F2B6AD0810028AC33 /* Build configuration list for PBXNativeTarget "ShareToTidal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48E8B0202B6AD0810028AC33 /* Debug */,
-				48E8B0212B6AD0810028AC33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48E8B0342B6AD0FF0028AC33 /* Build configuration list for PBXNativeTarget "ShareToYoutubeMusic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48E8B0352B6AD0FF0028AC33 /* Debug */,
-				48E8B0362B6AD0FF0028AC33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48F623D22B66D91D0041B75C /* Build configuration list for PBXNativeTarget "ShareToAppleMusic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48F623D32B66D91D0041B75C /* Debug */,
-				48F623D42B66D91D0041B75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
