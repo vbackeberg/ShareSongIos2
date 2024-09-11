@@ -63,7 +63,7 @@ struct ButtonWithOutline: View {
             Text(text)
                 .font(.system(size: 20))
                 .frame(width: 128, height: 96)
-                .background(isSelected ? Color.blue : Color.gray.opacity(0.3))
+                .background(isSelected ? Color.purple : Color.gray.opacity(0.3))
                 .cornerRadius(16)
                 .foregroundColor(isSelected ? Color.white : Color.primary)
                 .padding(8)
