@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct ChooseView: View {
     @AppStorage("serviceOfUser", store: UserDefaults(suiteName: "group.com.valerian.sharesongios"))
     var selectedService: String = "no"
 
@@ -71,6 +71,6 @@ struct ButtonWithOutline: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ChooseView()
     }
 }

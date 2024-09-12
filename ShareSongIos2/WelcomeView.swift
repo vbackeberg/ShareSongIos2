@@ -13,7 +13,7 @@ struct WelcomeView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 16)
             
-            NavigationLink(destination: ContentView()) {
+            NavigationLink(destination: ChooseView()) {
                 Text("Choose my music service")
                     .font(.system(size: 20, weight: .bold))
                     .frame(width: 200, height: 72)

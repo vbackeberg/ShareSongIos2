@@ -12,7 +12,7 @@ import SwiftData
 struct ShareSongIos2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChooseView()
         }
     }
 }
