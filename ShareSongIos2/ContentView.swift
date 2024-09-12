@@ -16,14 +16,11 @@ struct ContentView: View {
         ScrollView {
             VStack(alignment: .center, spacing: 16) {
                 Text("Select your music service")
-                    .font(.system(size: 24, weight: .bold))
+                    .font(.system(size: 40, weight: .bold))
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 16)
-                
-                Text("Choose the music service we should convert your song to. Next, select and share any song link and look for the Share Song icon. Tap it to convert your song!")
-                    .font(.system(size: 16))
-                    .multilineTextAlignment(.center)
-                    .padding(16)
+
+                Spacer()
                 
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
                     ForEach(items.keys.sorted(), id: \.self) { key in
