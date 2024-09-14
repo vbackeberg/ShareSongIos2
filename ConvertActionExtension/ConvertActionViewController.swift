@@ -7,7 +7,7 @@ class ConvertActionViewController: UIViewController {
     var targetServiceDisplayName: String { targetServiceName }
     private lazy var uiHostingController = UIHostingController(rootView: LoadingScreen(close: close))
     @AppStorage("serviceOfUser", store: UserDefaults(suiteName: "group.com.valerian.sharesongios"))
-    var selectedService: String = "no"
+    var selectedService: String = "no service"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,19 +23,30 @@ class ConvertActionViewController: UIViewController {
             [weak self] url, error in
             DispatchQueue.main.async {
                 if let strongSelf = self, let url = url as? URL {
-                    if !strongSelf.shouldActivateForURL(url) {
-                        let alert = UIAlertController(
-                            title: "Error",
-                            message: "Sorry, this link is not supported. We can only convert songs.",
-                            preferredStyle: .alert)
-                        
-                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
-                            strongSelf.close()
-                        }))
-                        DispatchQueue.main.async {
-                            strongSelf.present(alert, animated: true)
-                        }
-                        
+					if !strongSelf.shouldActivateForURL(url) {
+						let alert = UIAlertController(
+							title: "Error",
+							message: "Sorry, this link is not supported. We can only convert songs.",
+							preferredStyle: .alert)
+						
+						alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+							strongSelf.close()
+						}))
+						DispatchQueue.main.async {
+							strongSelf.present(alert, animated: true)
+						}
+					} else if serviceKeys[strongSelf.selectedService] == nil {
+						let alert = UIAlertController(
+							title: "Error",
+							message: "You haven't set your music service, yet. Open ShareSong and set your music service.",
+							preferredStyle: .alert)
+						
+						alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+							strongSelf.close()
+						}))
+						DispatchQueue.main.async {
+							strongSelf.present(alert, animated: true)
+						}
                     } else {
                         print("transforming url")
                         print(url)
