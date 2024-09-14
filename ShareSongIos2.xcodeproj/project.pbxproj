@@ -10,6 +10,8 @@
 		48E78F6D2B65732B00E54093 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A66C592B5410550092025F /* UniformTypeIdentifiers.framework */; };
 		48E78F702B65732B00E54093 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E78F6F2B65732B00E54093 /* Media.xcassets */; };
 		48E78F792B65732B00E54093 /* ConvertActionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48E78F6C2B65732B00E54093 /* ConvertActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC219C5D2C95C86C007DAED5 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC219C5C2C95C86C007DAED5 /* Services.swift */; };
+		CC219C5E2C95CE51007DAED5 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC219C5C2C95C86C007DAED5 /* Services.swift */; };
 		CC2B48BF2C8E0A0F00D7886F /* OriginUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809B1FD2B58302D001F4EEF /* OriginUrls.swift */; };
 		CC2B48C12C8E0A3900D7886F /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */; };
 		CC2B48C22C8E0A3E00D7886F /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A7792F2B6AAF250086049C /* LoadingScreen.swift */; };
@@ -79,6 +81,7 @@
 		48E78F712B65732B00E54093 /* ConvertActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertActionViewController.swift; sourceTree = "<group>"; };
 		48E78F762B65732B00E54093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F623BD2B66D8A80041B75C /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
+		CC219C5C2C95C86C007DAED5 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CC2B48B82C8DF20F00D7886F /* ShareSongIos2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareSongIos2.entitlements; sourceTree = "<group>"; };
 		CC2B48B92C8DFC1400D7886F /* ConvertActionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConvertActionExtension.entitlements; sourceTree = "<group>"; };
 		CCD31AB22C91EF7600B79448 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -186,6 +189,7 @@
 				CCD31AB52C91F80C00B79448 /* ChangeView.swift */,
 				FD402A602B46F1E200E98DEF /* Assets.xcassets */,
 				FD402A622B46F1E200E98DEF /* Preview Content */,
+				CC219C5C2C95C86C007DAED5 /* Services.swift */,
 			);
 			path = ShareSongIos2;
 			sourceTree = "<group>";
@@ -377,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2B48C22C8E0A3E00D7886F /* LoadingScreen.swift in Sources */,
+				CC219C5E2C95CE51007DAED5 /* Services.swift in Sources */,
 				CC2B48BF2C8E0A0F00D7886F /* OriginUrls.swift in Sources */,
 				CC2B48C72C8E0B4800D7886F /* ShareSongClient.swift in Sources */,
 				CC2B48DE2C8E0F3700D7886F /* ConvertActionViewController.swift in Sources */,
@@ -393,6 +398,7 @@
 				CC2B48DB2C8E0F2900D7886F /* LoadingAnimation.swift in Sources */,
 				CCD31AB42C91F51E00B79448 /* WelcomeView.swift in Sources */,
 				CCD31AB62C91F80C00B79448 /* ChangeView.swift in Sources */,
+				CC219C5D2C95C86C007DAED5 /* Services.swift in Sources */,
 				FD402A5D2B46F1DF00E98DEF /* ChooseView.swift in Sources */,
 				FD402A5B2B46F1DF00E98DEF /* ShareSongIos2App.swift in Sources */,
 				CC2B48DC2C8E0F2C00D7886F /* OriginUrls.swift in Sources */,
