@@ -36,14 +36,21 @@ class ConvertActionViewController: UIViewController {
 							strongSelf.present(alert, animated: true)
 						}
 					} else if serviceNames[strongSelf.selectedService] == nil {
+						let url = URL(string: "sharesong://")
+						
 						let alert = UIAlertController(
-							title: "Error",
+							title: "Choose your music service",
 							message: "You haven't set your music service, yet. Open ShareSong and set your music service.",
 							preferredStyle: .alert)
 						
-						alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+						alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { _ in
 							strongSelf.close()
 						}))
+						
+						alert.addAction(UIAlertAction(title: "Choose now", style: .default, handler: { _ in
+							strongSelf.openUrl(url: url, self: strongSelf)
+						}))
+						
 						DispatchQueue.main.async {
 							strongSelf.present(alert, animated: true)
 						}
