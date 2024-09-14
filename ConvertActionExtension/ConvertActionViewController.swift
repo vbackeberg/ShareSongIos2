@@ -35,7 +35,7 @@ class ConvertActionViewController: UIViewController {
 						DispatchQueue.main.async {
 							strongSelf.present(alert, animated: true)
 						}
-					} else if serviceKeys[strongSelf.selectedService] == nil {
+					} else if serviceNames[strongSelf.selectedService] == nil {
 						let alert = UIAlertController(
 							title: "Error",
 							message: "You haven't set your music service, yet. Open ShareSong and set your music service.",
