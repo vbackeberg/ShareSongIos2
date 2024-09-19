@@ -8,16 +8,22 @@
 		<dict>
 			<key>NSExtensionActivationRule</key>
 			<string>
-                SUBQUERY (
-                    extensionItems,
-                    $extensionItem,
-                    SUBQUERY (
-                        $extensionItem.attachments,
-                        $attachment,
-                        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.url&quot;
-                    ).@count == 1
-                ).@count == 1
-            </string>
+				SUBQUERY (
+					extensionItems,
+					$extensionItem,
+					SUBQUERY (
+						$extensionItem.attachments,
+						$attachment,
+						ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.url&quot;
+					).@count == 1
+					AND
+					SUBQUERY (
+						$extensionItem.attachments,
+						$attachment,
+						ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.file-url&quot;
+					).@count == 0
+				).@count == 1
+			</string>
 			<key>NSExtensionServiceAllowsFinderPreviewItem</key>
 			<true/>
 			<key>NSExtensionServiceAllowsTouchBarItem</key>
