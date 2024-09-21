@@ -25,6 +25,7 @@ struct ChangeView: View {
 					.cornerRadius(10)
 			}
 		}
+		.frame(maxWidth: 600)
 		.padding()
 	}
 }

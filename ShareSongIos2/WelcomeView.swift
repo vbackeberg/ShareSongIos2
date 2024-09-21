@@ -22,6 +22,7 @@ struct WelcomeView: View {
 					.cornerRadius(16)
 			}
 		}
+		.frame(maxWidth: 600)
 		.padding()
 	}
 }

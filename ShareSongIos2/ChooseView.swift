@@ -30,8 +30,10 @@ struct ChooseView: View {
 						)
 					}
 				}
+				.frame(maxWidth: 600)
 				.padding(.horizontal, 16)
 			}
+			.frame(maxWidth: .infinity)
 			.padding(.top, 48)
 		}
 		.background(Color(uiColor: .systemBackground))
