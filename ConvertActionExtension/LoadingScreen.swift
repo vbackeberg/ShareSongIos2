@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct LoadingScreen: View {
+	@AppStorage("serviceOfUser", store: UserDefaults(suiteName: "group.com.valerian.sharesongios"))
+	var selectedService: String = "no service"
+	
     var close: () -> Void
 
     var body: some View {
@@ -11,7 +14,7 @@ struct LoadingScreen: View {
             }
 
             Spacer()
-            Text("Looking for your song").font(.system(size: 16)).padding()
+			Text("Looking for your song on \(serviceNames[selectedService] ?? "your music service")").font(.system(size: 16)).padding()
             LoadingAnimation(close: close)
             Spacer()
         }
